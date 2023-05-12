@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"github.com/passbolt/go-passbolt-cli/csv"
 	"github.com/passbolt/go-passbolt-cli/keepass"
 	"github.com/spf13/cobra"
 )
@@ -15,4 +16,5 @@ var exportCmd = &cobra.Command{
 func init() {
 	rootCmd.AddCommand(exportCmd)
 	exportCmd.AddCommand(keepass.KeepassExportCmd)
+	exportCmd.AddCommand(csv.CSVExportCmd)
 }

@@ -4,6 +4,7 @@ go 1.18
 
 require (
 	github.com/alessio/shellescape v1.4.1
+	github.com/google/cel-go v0.13.0
 	github.com/passbolt/go-passbolt v0.6.0
 	github.com/pterm/pterm v0.12.51
 	github.com/spf13/cobra v1.6.1
@@ -25,7 +26,6 @@ require (
 	github.com/containerd/console v1.0.3 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
-	github.com/google/cel-go v0.13.0 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gookit/color v1.5.2 // indirect
